@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://dn5j0a7lgpl8n"]
+
+[ext_resource type="PackedScene" uid="uid://c45phvdr0ytev" path="res://Duck.tscn" id="1_ofbcb"]
+[ext_resource type="PackedScene" uid="uid://67e1244q3gga" path="res://Duckling.tscn" id="3_mck8p"]
+
+[node name="Pond" type="Node2D" unique_id=1633558543]
+
+[node name="Duck" parent="." unique_id=1281712494 instance=ExtResource("1_ofbcb")]
+position = Vector2(496, 240)
+rock_density = 0.1
+
+[node name="Duckling" parent="." unique_id=855468996 instance=ExtResource("3_mck8p")]
+position = Vector2(560, 240)
+
+[node name="Duckling2" parent="." unique_id=889164326 instance=ExtResource("3_mck8p")]
+position = Vector2(560, 272)
+
+[node name="Duckling3" parent="." unique_id=1074743256 instance=ExtResource("3_mck8p")]
+position = Vector2(528, 304)
